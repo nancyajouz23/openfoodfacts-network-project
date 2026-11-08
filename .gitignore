@@ -1,0 +1,23 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets and TLS keys
+.env
+*.key
+sslkeys.log
+
+# Network captures
+*.pcap
+*.pcapng
+
+# Temporary files
+*.log
+.DS_Store
