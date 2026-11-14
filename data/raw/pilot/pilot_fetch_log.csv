@@ -1,0 +1,14 @@
+timestamp_utc,method,run_id,barcode,url,status_code,latency_ms,wait_seconds,success,error
+2026-11-14T11:55:19.102957+00:00,robots,pilot,,https://world.openfoodfacts.org/robots.txt,200,287.4,0.0,True,
+2026-11-14T11:55:24.276342+00:00,bs4,pilot,7613035449626,https://world.openfoodfacts.org/product/7613035449626/chocapic-nestle,200,455.1,4.671,True,
+2026-11-14T11:55:28.893142+00:00,api,pilot,7613035449626,https://world.openfoodfacts.org/api/v2/product/7613035449626?fields=code%2Cproduct_name%2Cbrands%2Cnutriments%2Cnutriscore_grade,200,66.6,4.484,True,
+2026-11-14T11:55:34.175791+00:00,bs4,pilot,7622210476241,https://world.openfoodfacts.org/product/7622210476241/petit-brun-extra,200,349.0,4.884,True,
+2026-11-14T11:55:38.893315+00:00,api,pilot,7622210476241,https://world.openfoodfacts.org/api/v2/product/7622210476241?fields=code%2Cproduct_name%2Cbrands%2Cnutriments%2Cnutriscore_grade,200,69.1,4.566,True,
+2026-11-14T11:55:44.313523+00:00,bs4,pilot,3045140105502,https://world.openfoodfacts.org/product/3045140105502/milka-alpine-milk-chocolate-bar,200,483.6,4.851,True,
+2026-11-14T11:55:48.909105+00:00,api,pilot,3045140105502,https://world.openfoodfacts.org/api/v2/product/3045140105502?fields=code%2Cproduct_name%2Cbrands%2Cnutriments%2Cnutriscore_grade,200,67.1,4.466,True,
+2026-11-14T11:55:54.170274+00:00,bs4,pilot,3329770075313,https://world.openfoodfacts.org/product/3329770075313/yop-fraise-yoplait,200,341.1,4.851,True,
+2026-11-14T11:55:58.893517+00:00,api,pilot,3329770075313,https://world.openfoodfacts.org/api/v2/product/3329770075313?fields=code%2Cproduct_name%2Cbrands%2Cnutriments%2Cnutriscore_grade,200,65.5,4.603,True,
+2026-11-14T11:56:04.179700+00:00,bs4,pilot,3046920028721,https://world.openfoodfacts.org/product/3046920028721/dark-absolute-99-cacao-lindt-sprungli-sas,200,354.1,4.883,True,
+2026-11-14T11:56:08.896010+00:00,api,pilot,3046920028721,https://world.openfoodfacts.org/api/v2/product/3046920028721?fields=code%2Cproduct_name%2Cbrands%2Cnutriments%2Cnutriscore_grade,200,70.3,4.593,True,
+2026-11-14T11:56:23.395117+00:00,selenium,pilot,7613035449626,https://world.openfoodfacts.org/product/7613035449626/chocapic-nestle,,4782.2,0.0,True,128 browser requests
+2026-11-14T11:56:29.505543+00:00,selenium,pilot,3329770075313,https://world.openfoodfacts.org/product/3329770075313/yop-fraise-yoplait,,5341.9,0.0,True,126 browser requests

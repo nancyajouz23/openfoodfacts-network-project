@@ -1,0 +1,4 @@
+timestamp_utc,method,run_id,barcode,url,status_code,latency_ms,wait_seconds,success,error
+2026-11-14T12:06:14.305598+00:00,bs4,1,7613035449626,https://world.openfoodfacts.org/product/7613035449626/chocapic-nestle,200,598.0,0.0,True, (2 HTTP requests)
+2026-11-14T12:06:19.068778+00:00,bs4,1,3770008009882,https://world.openfoodfacts.org/product/3770008009882/les-fourrees-beurre-de-cacahuete-cacao-funkie,200,378.1,4.129,True, (2 HTTP requests)
+2026-11-14T12:06:24.080190+00:00,bs4,1,3229820794556,https://world.openfoodfacts.org/product/3229820794556/muesli-proteines-soja-dattes-fruits-rouges-bjorg,200,378.4,4.495,True, (2 HTTP requests)

@@ -1,0 +1,643 @@
+{
+ "total_requests": 126,
+ "requests_per_host": {
+  "static.openfoodfacts.org": 101,
+  "world.openfoodfacts.org": 17,
+  "analytics.openfoodfacts.org": 4,
+  "images.openfoodfacts.org": 1,
+  "api.folksonomy.openfoodfacts.org": 1,
+  "robotoff.openfoodfacts.org": 1
+ },
+ "requests": [
+  {
+   "url": "https://world.openfoodfacts.org/product/3329770075313",
+   "method": "GET",
+   "type": "Document"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/product/3329770075313/yop-fraise-yoplait",
+   "method": "GET",
+   "type": "Document"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/css/dist/app-ltr.css?v=1794217990",
+   "method": "GET",
+   "type": "Stylesheet"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/css/dist/jqueryui/themes/base/jquery-ui.css",
+   "method": "GET",
+   "type": "Stylesheet"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/css/dist/select2.min.css",
+   "method": "GET",
+   "type": "Stylesheet"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/off-webcomponents.bundled.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/barcode-scanner.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/logos/off-logo-horizontal-light.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/barcode-scanner-button.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/logos/off-logo-icon-light.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/JsBarcode.all.min.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/external-knowledge-panels.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/lang/en/labels/triman.90x90.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-d-new-en.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/cgi/manifest.pl",
+   "method": "GET",
+   "type": "Manifest"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/info.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/circle-minus.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/points-negative-5-10.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/points-negative-9-10.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/points-negative-0-10.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/points-negative-0-20.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/points-negative-0-4.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/circle-plus.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/points-positive-6-7.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/points-positive-0-5.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/points-positive-0-6.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/nutrition.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/misc/low.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/misc/high.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/scale-balance.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/ingredients.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nutrient-level-sugars-high.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nova-group-4.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/arrow-bottom-right-thick.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/palm-oil.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/leaf.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/vegetarian.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/off-magnifying-glass.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/green-score-e.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/lca.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/agriculture.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/processing.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/packaging.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/transportation.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/distribution.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/consumption.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/public.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/monkey_happy.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/car.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/icons/dist/help.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/forest-footprint-2026-white-bg-not-computed.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/logos/off-logo-icon-light.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/illustrations/app-icon-in-the-clouds.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/icons/dist/x.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/icons/dist/facebook.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/icons/dist/instagram.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/logos/off-logo-horizontal-mono-white.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/modernizr.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/jquery.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/jquery-ui.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/hc-sticky.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/display.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/stikelem.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/scrollNav.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/foundation.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/jquery.cookie.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/select2.min.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/matomo-events.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/webcomponentsjs/webcomponents-loader.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/product-history.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/product-preferences.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/product-search.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://analytics.openfoodfacts.org/matomo.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/fonts/public-sans-v14-vietnamese_latin-ext_latin-regular.woff2",
+   "method": "GET",
+   "type": "Font"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/misc/donation-banners/off-days-2026-background.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/fonts/material-icons-v139.woff2",
+   "method": "GET",
+   "type": "Font"
+  },
+  {
+   "url": "https://images.openfoodfacts.org/images/products/332/977/007/5313/front_fr.53.400.jpg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/illustrations/footer-planet.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/illustrations/footer-orange.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/js/dist/lang/af-Cuq0WMXZ.js",
+   "method": "GET",
+   "type": "Script"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/data/i18n/en/lang.json",
+   "method": "GET",
+   "type": "XHR"
+  },
+  {
+   "url": "https://api.folksonomy.openfoodfacts.org/product/3329770075313",
+   "method": "GET",
+   "type": "Fetch"
+  },
+  {
+   "url": "https://robotoff.openfoodfacts.org/api/v1/questions/3329770075313?lang=en",
+   "method": "GET",
+   "type": "Fetch"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/css/dist/images/donation-banner-group-photo.png",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/css/dist/images/CMJN-ICON_WHITE_BG_OFF.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/data/tagline/web/main.json",
+   "method": "GET",
+   "type": "Fetch"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/api/v3/external_sources?lc=en",
+   "method": "GET",
+   "type": "Fetch"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/cgi/countries.pl",
+   "method": "GET",
+   "type": "XHR"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/api/v3.4/attribute_groups",
+   "method": "GET",
+   "type": "XHR"
+  },
+  {
+   "url": "https://analytics.openfoodfacts.org/matomo.php?action_name=world.openfoodfacts.org%2FYop%20fraise%20%E2%80%93%20Yoplait%20%E2%80%93%206%C2%A0x%20180%C2%A0g&idsite=5&rec=1&r=881393&h=13&m=56&s=25&url=https%3A%2F%2Fworld.openfoodfacts.org%2Fproduct%2F3329770075313%2Fyop-fraise-yoplait&_id=&_idn=1&send_image=0&_refts=0&dimension1=en&dimension2=world&dimension3=N&pv_id=rD4oNA&pf_net=0&pf_srv=224&pf_tfr=116&uadata=%7B%22formFactors%22%3A%5B%5D%2C%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600",
+   "method": "POST",
+   "type": "Ping"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/api/v3.4/preferences",
+   "method": "GET",
+   "type": "XHR"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/icons/dist/cancel.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nutriscore-a.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nutrient-level-salt-low.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nutrient-level-sugars-low.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nutrient-level-fat-low.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nutrient-level-saturated-fat-low.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/nova-group-1.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/0-additives.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-gluten.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-milk.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-eggs.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-nuts.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-peanuts.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-sesame-seeds.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-soybeans.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-celery.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-mustard.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-lupin.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-fish.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-crustaceans.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-molluscs.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/no-sulphur-dioxide-and-sulphites.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/vegan.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/vegetarian.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/palm-oil-free.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/contains-unwanted-ingredients.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/organic.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/fair-trade.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/green-score-a.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/attributes/dist/forest-footprint-2026-white-bg-a.svg",
+   "method": "GET",
+   "type": "Image"
+  },
+  {
+   "url": "https://analytics.openfoodfacts.org/matomo.php?e_c=product&e_a=has_nutriscore&e_n=d&ca=1&idsite=5&rec=1&r=442048&h=13&m=56&s=25&url=https%3A%2F%2Fworld.openfoodfacts.org%2Fproduct%2F3329770075313%2Fyop-fraise-yoplait&_id=&_idn=1&send_image=0&_refts=0&dimension1=en&dimension2=world&dimension3=N&pv_id=rD4oNA&uadata=%7B%22formFactors%22%3A%5B%5D%2C%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600",
+   "method": "POST",
+   "type": "Ping"
+  },
+  {
+   "url": "https://world.openfoodfacts.org/images/favicon/off/favicon.ico",
+   "method": "GET",
+   "type": "Other"
+  },
+  {
+   "url": "https://static.openfoodfacts.org/images/favicon/android-chrome-192x192.png",
+   "method": "GET",
+   "type": "Other"
+  },
+  {
+   "url": "https://analytics.openfoodfacts.org/matomo.php?e_c=product&e_a=has_nova&e_n=4&ca=1&idsite=5&rec=1&r=430309&h=13&m=56&s=25&url=https%3A%2F%2Fworld.openfoodfacts.org%2Fproduct%2F3329770075313%2Fyop-fraise-yoplait&_id=&_idn=1&send_image=0&_refts=0&dimension1=en&dimension2=world&dimension3=N&pv_id=rD4oNA&uadata=%7B%22formFactors%22%3A%5B%5D%2C%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Linux%22%2C%22platformVersion%22%3A%22%22%7D&pdf=1&qt=0&realp=0&wma=0&fla=0&java=0&ag=0&cookie=1&res=800x600",
+   "method": "POST",
+   "type": "Ping"
+  }
+ ]
+}
