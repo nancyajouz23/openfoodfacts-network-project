@@ -1,0 +1,13 @@
+{
+ "network_requests": 793,
+ "browser_requests": 3869,
+ "served_from_cache": 3076,
+ "network_requests_per_host": {
+  "world.openfoodfacts.org": 323,
+  "static.openfoodfacts.org": 274,
+  "analytics.openfoodfacts.org": 118,
+  "images.openfoodfacts.org": 40,
+  "api.folksonomy.openfoodfacts.org": 40,
+  "robotoff.openfoodfacts.org": 40
+ }
+}

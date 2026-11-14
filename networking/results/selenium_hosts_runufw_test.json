@@ -1,0 +1,8 @@
+{
+ "network_requests": 1,
+ "browser_requests": 3,
+ "served_from_cache": 2,
+ "network_requests_per_host": {
+  "world.openfoodfacts.org": 3
+ }
+}

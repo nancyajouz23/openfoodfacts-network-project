@@ -1,0 +1,15 @@
+UFW test: sudo ufw deny out 443
+method: selenium   started: 2026-11-14T14:21:22Z
+----
+Selenium run ufw: 1 products
+  7613035449626: TimeoutException, waiting 60 s
+  7613035449626: TimeoutException, waiting 60 s
+  7613035449626: TimeoutException, waiting 60 s
+  [1/1] 7613035449626: FAILED
+Saved 1 products to /mnt/c/Users/Nancy/Desktop/Lab Network/openfoodfacts-network-project/data/processed/selenium_products_runufw_test.csv
+Browser asked for 3 resources, 2 came from cache
+Network requests per host: {'world.openfoodfacts.org': 3}
+Summary: {'method': 'selenium', 'run_id': 'ufw', 'products_attempted': 1, 'products_extracted': 0, 'reliability_pct': 0.0, 'field_completeness_pct': 0.0, 'http_requests': 1, 'http_errors': 1, 'body_bytes_received': 1628654, 'total_time_s': 272.25, 'wait_time_s': 180.0, 'active_time_s': 92.25, 'avg_latency_ms': ''}
+----
+exit code: 0
+total time until the scraper gave up: 274.1 s

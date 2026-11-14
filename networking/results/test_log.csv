@@ -1,2 +1,0 @@
-timestamp_utc,method,run_id,barcode,url,status_code,latency_ms,wait_seconds,success,error
-2026-11-08T13:57:47.857694+00:00,api,test1,00123,,200,120,,True,

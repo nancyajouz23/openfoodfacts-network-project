@@ -1,0 +1,10 @@
+method,run_id,pcap,packets_total,bytes_total,packets_off,bytes_off,bytes_loopback
+bs4,1,bs4_run1.pcap,849,1597985,817,1592133,1360
+bs4,2,bs4_run2.pcap,698,1584325,678,1582089,1360
+bs4,3,bs4_run3.pcap,705,1638184,684,1635294,2176
+selenium_default,1,selenium_default_run1.pcap,38175,45543029,3700,4413320,53261209
+selenium_default,2,selenium_default_run2.pcap,27159,32223265,3667,4492614,52882499
+selenium_default,3,selenium_default_run3.pcap,29361,34371629,3762,4483562,54676597
+selenium,1,selenium_run1.pcap,4312,4925119,3986,4718975,55815238
+selenium,2,selenium_run2.pcap,4187,4765345,3846,4559500,55499488
+selenium,3,selenium_run3.pcap,4231,4901151,3879,4692509,55547624
