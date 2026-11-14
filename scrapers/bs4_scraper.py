@@ -71,7 +71,8 @@ def parse_product(html, barcode, category):
     title = soup.select_one('h1[itemprop="name"]')
     if title:
         # "Chocapic – Nestlé – 645 g": the name is the first part
-        row["product_name"] = title.get_text(" ", strip=True).replace("\xa0", " ").split(" – ")[0]
+        title_text = " ".join(title.get_text(" ", strip=True).replace("\xa0", " ").split())
+        row["product_name"] = title_text.split(" – ")[0]
 
     brand = soup.find(id="field_brands_value")
     if brand:

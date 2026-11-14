@@ -1,2 +1,6 @@
 timestamp_utc,method,run_id,products_attempted,products_extracted,reliability_pct,field_completeness_pct,http_requests,http_errors,body_bytes_received,total_time_s,wait_time_s,active_time_s,avg_latency_ms,bandwidth_off_kb,bandwidth_total_kb
 2026-11-14T12:06:24.194548+00:00,bs4,1,3,3,100.0,100.0,6,0,738640,10.52,8.62,1.89,451.5,,
+2026-11-14T12:42:12.316824+00:00,selenium,1,3,3,100.0,100.0,375,0,3272940,12.59,7.21,5.39,982.8,,
+2026-11-14T12:42:56.628956+00:00,selenium,2,3,3,100.0,100.0,166,0,3111925,11.35,7.66,3.69,841.4,,
+2026-11-14T12:46:00.805918+00:00,bs4,1,3,3,100.0,100.0,6,0,738640,10.55,8.42,2.13,510.4,,
+2026-11-14T12:47:35.366809+00:00,selenium,1,3,3,100.0,100.0,166,0,3312051,12.51,7.25,5.26,938.1,,

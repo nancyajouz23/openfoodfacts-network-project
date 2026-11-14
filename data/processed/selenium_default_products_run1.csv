@@ -1,0 +1,41 @@
+﻿barcode,product_name,brand,category,sugar_100g,fat_100g,protein_100g,salt_100g,calories_100g,calories_estimated,nutriscore
+7613035449626,Chocapic,"Nestlé, Chocapic",breakfast-cereals,19.9,4.4,8.5,0.2,384.0,False,B
+3770008009882,Les Fourrées - Beurre de Cacahuète & Cacao,Funkie,breakfast-cereals,13.0,17.0,13.0,0.13,438.0,False,B
+3229820794556,"Muesli Proteines Soja, Dattes, Fruits Rouges",Bjorg,breakfast-cereals,10.0,9.4,21.0,0.02,365.0,False,A
+3159470005071,Céréales Extra Pépites Chocolat Noisettes,"Kellogg's, KELLOGG S PRODUITS ALIMENT SAS",breakfast-cereals,21.0,25.0,8.0,0.68,497.0,False,E
+3229820797861,"Croustillant 3 noix noisette, amande & noix de cajou",Bjorg,breakfast-cereals,14.0,17.0,11.0,0.02,487.0,False,B
+5050083296079,Cereales special K original,Kellogg's,breakfast-cereals,15.0,1.3,8.0,0.84,392.0,False,C
+3421557502446,Muesli croustillant sans gluten,Terres & céréales bio,breakfast-cereals,18.0,15.0,9.0,0.04,447.0,False,C
+7613032779566,chocapic,"Nestlé, Chocapic",breakfast-cereals,19.9,4.4,8.5,0.2,384.0,False,B
+7613287514325,Original Fitness,"Nestlé, Fitness",breakfast-cereals,8.8,2.2,9.4,0.56,368.0,False,A
+5059319023762,Miel Pops,KELLOG'S,breakfast-cereals,22.0,1.5,5.2,0.4,384.0,False,C
+3178530410143,Petites Madeleines Pépites Chocolat,"St Michel, St Michel",biscuits,29.0,21.0,5.1,0.69,425.0,False,D
+3175681280502,Le petit Gerblé nature,Gerblé,biscuits,18.0,14.0,10.0,0.19,449.0,False,C
+3251490332080,FIGUE & SON,Gerblé,biscuits,16.0,18.0,9.6,0.18,450.0,False,B
+3175681116863,Sablé sésame saveur vanille,Gerblé,biscuits,0.0,18.0,8.1,0.32,442.0,False,B
+3175681135895,MOELLEUX CHOCOLAT NOIX,Gerblé,biscuits,13.0,23.0,7.3,0.23,434.0,False,C
+7622210476241,Petit brun extra,"Brun, Mondelez",biscuits,25.0,12.0,7.2,0.8,441.0,False,E
+3175681257566,"Gerblé - Organic Lemon Ginger Cookie, 132g (4.7oz)",Gerblé,biscuits,17.0,15.0,8.0,0.17,446.0,False,B
+3175681134904,sablé NATURE,Gerblé,biscuits,0.0,15.0,6.0,0.22,418.0,False,C
+3251490320001,"Gerblé - Wholegrain Biscuit, 210g (7.5oz)",Gerblé,biscuits,21.429,14.286,9.524,0.238,440.0,False,C
+3175680011480,Biscuit Sesame,Gerblé,biscuits,17.0,18.0,10.0,0.38,467.0,False,C
+7613035040823,Nestlé dessert Noir,"Nestlé, Nestlé Dessert, Tablettes",chocolates,46.4,34.0,6.0,0.01,548.0,False,E
+3046920017503,Sésame Grillé,Lindt Excellence,chocolates,45.0,32.0,6.8,0.09,531.0,False,E
+3045140105502,Milka Alpine Milk Chocolate Bar,"Milka, MONDELEZ EUROPE SERVICES GMBH",chocolates,55.0,31.0,6.5,0.28,539.0,False,E
+3760121219749,Chocolat noir 70 %,Biocoop,chocolates,29.0,42.0,7.9,0.1,565.0,False,E
+3046920022507,Excellence - Chocolat Caramel à la pointe de sel,Lindt,chocolates,52.0,29.0,5.4,0.4,520.0,False,E
+3564707000864,Noir Dégustation 74% cacao,Bio Village,chocolates,30.0,42.0,8.5,0.01,569.0,False,E
+3046920028721,Dark absolute 99% cacao,LINDT SPRUNGLI SAS,chocolates,0.49,49.0,14.2,0.06,567.0,False,D
+3046920027885,NOIR Aux cristaux de Fleur de Sel,Lindt EXCELLENCE,chocolates,47.0,32.0,5.7,0.37,562.0,False,E
+7613035040793,NESTLÉ DESSERT Noir 2x205g,"Nestlé, Nestlé Dessert, Tablettes",chocolates,46.4,34.6,5.9,0.01,551.0,False,E
+3270190127765,NOIR - PUUR 74% Cacao,CARREFOUR FRANCE,chocolates,27.0,42.0,9.6,0.03,576.0,False,E
+3560071411220,Yaourt grec,Carrefour,yogurts,4.0,10.0,5.6,0.16,128.0,False,C
+5201037709774,Yaourt Grec 10%MG,Delta,yogurts,3.8,10.0,6.5,0.12,134.0,False,C
+3329770075313,Yop fraise,Yoplait,yogurts,10.5,0.8,3.0,0.12,65.0,False,D
+3564700137826,Yaourt à la grecque nature,"Délisse, Marque Repère",yogurts,3.3,8.9,3.3,0.1,107.0,False,C
+3273220530351,Yaourt nature 4 x 125 g,Vrai,yogurts,4.3,1.9,3.9,0.1,50.0,False,B
+3033491588136,HiPRO Saveur Vanille,Danone,yogurts,3.1,0.1,9.4,0.09,53.0,False,A
+3661344221772,"YAOURT BIO, SUCRÉ, À LA MYRTILLE",Les 2 Vaches,yogurts,13.0,2.6,3.5,0.14,90.0,False,C
+3033490004514,Yaourt le nature,Danone,yogurts,5.1,1.0,3.8,0.1,45.0,False,A
+3278699005027,Yaourt à la vanille bio,Malo,yogurts,11.0,3.2,3.1,0.1,89.0,False,C
+3278699005010,Yaourt Nature BIO,Malo,yogurts,5.5,3.6,3.6,0.12,69.0,False,B

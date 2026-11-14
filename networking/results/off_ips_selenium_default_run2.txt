@@ -1,0 +1,3 @@
+151.115.132.10 static.openfoodfacts.org
+151.115.132.10 world.openfoodfacts.org
+151.115.132.13 images.openfoodfacts.org
