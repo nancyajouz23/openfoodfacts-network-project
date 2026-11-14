@@ -1,0 +1,43 @@
+{
+  "collected_at_utc": "2026-11-14T11:45:52.344008+00:00",
+  "api": "https://world.openfoodfacts.org/api/v2/search",
+  "filters": {
+    "countries_tags": "en:france",
+    "states_tags": "en:nutrition-facts-completed",
+    "page_size": 50
+  },
+  "pages_fetched": {
+    "breakfast-cereals": 1,
+    "biscuits": 2,
+    "chocolates": 1,
+    "yogurts": 1
+  },
+  "searches_total": 5,
+  "matching_products_in_database": {
+    "breakfast-cereals": 7263,
+    "biscuits": 19728,
+    "chocolates": 13560,
+    "yogurts": 9175
+  },
+  "rows_excluded_by_rule": {
+    "missing_nutrient": 1
+  },
+  "rows_fetched": 250,
+  "valid_but_unused_beyond_target": {
+    "breakfast-cereals": 0,
+    "biscuits": 49,
+    "chocolates": 0,
+    "yogurts": 0
+  },
+  "ml_products_per_category": {
+    "breakfast-cereals": 50,
+    "biscuits": 50,
+    "chocolates": 50,
+    "yogurts": 50
+  },
+  "ml_products_total": 200,
+  "calories_estimated_from_kj": 0,
+  "benchmark_per_category": 10,
+  "benchmark_total": 40,
+  "random_seed": 42
+}
