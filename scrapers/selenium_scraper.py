@@ -142,7 +142,9 @@ class NetworkCounter:
                 if host:
                     self.hosts[host] -= 1
             elif method == "Network.loadingFinished":
-                self.bytes += int(params.get("encodedDataLength", 0))
+                # only http(s) requests: not Chrome's own error pages or data: URLs
+                if params["requestId"] in self._host_of:
+                    self.bytes += int(params.get("encodedDataLength", 0))
             elif method == "Network.responseReceived" and params.get("type") == "Document":
                 doc_status = params["response"]["status"]
         return self.requests - before, doc_status
@@ -212,6 +214,8 @@ def load_page(driver, counter, url, barcode, run_id, log_file):
             append_request_log(entry, log_file)
 
             if status in (429, 503):
+                if attempt == MAX_ATTEMPTS:
+                    return False, total_wait, latency
                 print(f"  {barcode}: HTTP {status}, waiting {BACKOFF_SECONDS} s")
                 time.sleep(BACKOFF_SECONDS)
                 total_wait += BACKOFF_SECONDS
@@ -224,6 +228,9 @@ def load_page(driver, counter, url, barcode, run_id, log_file):
             entry.update(latency_ms=round(latency, 1), wait_seconds=round(total_wait, 3),
                          success=False, error=f"{type(error).__name__}: {clean(error.msg)[:150]}")
             append_request_log(entry, log_file)
+            if attempt == MAX_ATTEMPTS:          # no pointless wait after the last try
+                print(f"  {barcode}: {type(error).__name__}, giving up")
+                break
             print(f"  {barcode}: {type(error).__name__}, waiting {BACKOFF_SECONDS} s")
             time.sleep(BACKOFF_SECONDS)
             total_wait += BACKOFF_SECONDS

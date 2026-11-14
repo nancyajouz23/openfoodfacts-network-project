@@ -142,6 +142,8 @@ def fetch(session, url, barcode, run_id):
             append_request_log(entry, LOG_FILE)
 
             if response.status_code in (429, 503):
+                if attempt == MAX_ATTEMPTS:
+                    return response, total_wait, latency
                 print(f"  {barcode}: HTTP {response.status_code}, waiting {BACKOFF_SECONDS} s")
                 time.sleep(BACKOFF_SECONDS)
                 total_wait += BACKOFF_SECONDS
@@ -153,6 +155,9 @@ def fetch(session, url, barcode, run_id):
             entry.update(latency_ms=round(latency, 1), wait_seconds=round(total_wait, 3),
                          success=False, error=f"{type(error).__name__}: {error}")
             append_request_log(entry, LOG_FILE)
+            if attempt == MAX_ATTEMPTS:          # no pointless wait after the last try
+                print(f"  {barcode}: {type(error).__name__}, giving up")
+                break
             print(f"  {barcode}: {type(error).__name__}, waiting {BACKOFF_SECONDS} s")
             time.sleep(BACKOFF_SECONDS)
             total_wait += BACKOFF_SECONDS
