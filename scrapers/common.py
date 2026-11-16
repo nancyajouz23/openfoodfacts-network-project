@@ -29,20 +29,15 @@ class RateLimiter:
     def wait(self):
         with self.lock:
             now = time.monotonic()
+            slot = max(now, self.next_allowed)
+            self.next_allowed = slot + self.interval
 
-            wait_time = max(
-                0.0,
-                self.next_allowed - now
-            )
+        wait_time = max(0.0, slot - now)
 
-            if wait_time > 0:
-                time.sleep(wait_time)
+        if wait_time > 0:
+            time.sleep(wait_time)
 
-            self.next_allowed = (
-                time.monotonic() + self.interval
-            )
-
-            return wait_time
+        return wait_time
 
 
 # Shared rate limiters

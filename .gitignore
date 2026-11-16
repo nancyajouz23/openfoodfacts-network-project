@@ -20,4 +20,4 @@ sslkeys.log
 
 # Temporary files
 *.log
-.DS_Store
+.DS_Storenetworking/results/*.err
