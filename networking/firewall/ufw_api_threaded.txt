@@ -1,0 +1,12 @@
+UFW test: sudo ufw deny out 443
+method: api_threaded   started: 2026-11-19T09:42:10Z
+----
+Threaded API run ufw: 1 products, 3 workers
+  [1/1] 7613035449626: ''
+Saved 1 products to /mnt/c/Users/Nancy/Desktop/Lab Network/openfoodfacts-network-project/data/processed/api_threaded_products_runufw_test.csv
+
+Threaded API benchmark summary:
+{'method': 'api_threaded', 'run_id': 'ufw', 'products_attempted': 1, 'products_extracted': 0, 'reliability_pct': 0.0, 'field_completeness_pct': 0.0, 'http_requests': 0, 'http_errors': 1, 'body_bytes_received': 0, 'total_time_s': 210.25, 'wait_time_s': 120.09, 'active_time_s': 90.16, 'avg_latency_ms': ''}
+----
+exit code: 0
+total time until the scraper gave up: 211.5 s
